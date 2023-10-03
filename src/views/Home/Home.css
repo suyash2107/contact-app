@@ -1,0 +1,48 @@
+/*
+dark-colour #cc00cc
+light-colour #ffccff
+very-light #ffe6ff
+
+
+*/
+body{
+background-color: #ffe6ff;
+}
+.app-title{
+    text-align: center;
+    color:#cc00cc;
+    font-size: 50px;
+    
+}
+.app-body{
+    display: flex;
+    justify-content: space-around;
+}
+.sub-heading{
+    text-align: center;
+    font-size: 30px;
+}
+.contact-card{
+    width: 400px;
+    padding: 5px;
+    margin-top:15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0,0,0.3);
+}
+.user-input{
+    display: block;
+    font-size: 25px;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 1px solid  #cc00cc;
+}
+.btn-add-contact{
+    display: block;
+    font-size: 25px;
+    margin: auto;
+    padding: 5px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
